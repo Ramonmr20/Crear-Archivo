@@ -1,0 +1,23 @@
+package es.ramonmerino.tuto19;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static Scanner scan;
+
+	public static void main(String[] args) {
+		Texts t = new Texts();
+		
+		t.equals(leer());
+		
+		
+		
+	}
+	
+	public static String leer(){
+		scan  = new Scanner(System.in);
+		String temp = scan.next();
+		return temp;
+	}
+
+}
